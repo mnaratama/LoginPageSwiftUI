@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		59728D9D2B358054002A5F67 /* LoginPageSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59728D9C2B358054002A5F67 /* LoginPageSwiftUIApp.swift */; };
-		59728D9F2B358054002A5F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59728D9E2B358054002A5F67 /* ContentView.swift */; };
+		59728D9F2B358054002A5F67 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59728D9E2B358054002A5F67 /* LoginView.swift */; };
 		59728DA12B358056002A5F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59728DA02B358056002A5F67 /* Assets.xcassets */; };
 		59728DA42B358056002A5F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59728DA32B358056002A5F67 /* Preview Assets.xcassets */; };
+		599283B92B3BC33E00000F8B /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599283B82B3BC33E00000F8B /* InputFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59728D992B358054002A5F67 /* LoginPageSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPageSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59728D9C2B358054002A5F67 /* LoginPageSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageSwiftUIApp.swift; sourceTree = "<group>"; };
-		59728D9E2B358054002A5F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59728D9E2B358054002A5F67 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		59728DA02B358056002A5F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59728DA32B358056002A5F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		599283B82B3BC33E00000F8B /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				59728D9C2B358054002A5F67 /* LoginPageSwiftUIApp.swift */,
-				59728D9E2B358054002A5F67 /* ContentView.swift */,
+				59728D9E2B358054002A5F67 /* LoginView.swift */,
+				599283B82B3BC33E00000F8B /* InputFieldView.swift */,
 				59728DA02B358056002A5F67 /* Assets.xcassets */,
 				59728DA22B358056002A5F67 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59728D9F2B358054002A5F67 /* ContentView.swift in Sources */,
+				59728D9F2B358054002A5F67 /* LoginView.swift in Sources */,
 				59728D9D2B358054002A5F67 /* LoginPageSwiftUIApp.swift in Sources */,
+				599283B92B3BC33E00000F8B /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
